@@ -28,6 +28,7 @@ public class GenerateMap : MonoBehaviour
                 }
 
                 GameObject Tile_go = (GameObject)Instantiate(HexPrefab, new Vector3(xPos, 0, y * zOffset), Quaternion.identity);
+                Tile_go.transform.SetParent(this.transform);
                 Tile_go.name = "Tile_" + x + "_" + y;
                 HexType = Random.Range(0, 4);
                 Material[] matArray = Tile_go.GetComponentInChildren<MeshRenderer>().materials;
