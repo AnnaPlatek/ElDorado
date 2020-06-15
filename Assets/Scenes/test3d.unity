@@ -152,6 +152,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HexPrefab: {fileID: 7992468269021834496, guid: 60ca41f228b8e844aa16f62ea9962dc7,
     type: 3}
+  Materials:
+  - {fileID: 2100000, guid: ca8d10482cb72e24c9528f93279b2f61, type: 2}
+  - {fileID: 2100000, guid: 19a63cbc29b4f6f4d83075b66371906d, type: 2}
+  - {fileID: 2100000, guid: 5155a071dee33c345b14c3ab8530325e, type: 2}
+  - {fileID: 2100000, guid: 817a68a7b051ed24ab457d959d0a179e, type: 2}
 --- !u!4 &404243401
 Transform:
   m_ObjectHideFlags: 0
