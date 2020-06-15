@@ -34,4 +34,21 @@ public class LoadLevel : MonoBehaviour
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void LoadPlayerStats()
+    {
+        SceneManager.LoadScene("PlayerStats");
+    }
+
+    public void LoadHelpsOptions()
+    {
+        SceneManager.LoadScene("HelpsOptions");
+    }
+
+
 }

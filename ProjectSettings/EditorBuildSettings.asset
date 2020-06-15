@@ -13,10 +13,16 @@ EditorBuildSettings:
     guid: 74f17c9595625fe45b264986dc41e78a
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 84792473ff3a6d64ba03aef09bff3fa5
+    guid: 234a5bc46367dd24eab311f8d20697b1
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: d172ab8226876594aa57da62917888e8
+  - enabled: 1
+    path: Assets/Scenes/HelpsOptions.unity
+    guid: 11485005c5115604d969d8b408dfe1a8
+  - enabled: 1
+    path: Assets/Scenes/PlayerStats.unity
+    guid: ad5ac313e6125604596ec05c54a0455e
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: c9fe8165abb003544bce21e34b7e14fc
